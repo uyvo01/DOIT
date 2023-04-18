@@ -51,14 +51,12 @@ table tbody tr:nth-child(even) {
 <body>
 <center>
 <td colspan="2"><img src="images/banner.jpeg" width = "1100" height="200"></td>
-<table width="1300" height="15" border="0" align="center" cellpadding="0" cellspacing="0">
+<table width="1300" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td colspan="2" bgcolor="#255851" align="center"><strong><font color = "#FFFFFF" size="2px">Home</font></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="index.php"><font color = "#FFFFFF" size="2px">Home</font></a></strong></td>
     <td colspan="2" bgcolor="#255851" align="center"><strong><a href="aboutus.php"><font color = "#FFFFFF" size="2px">About Us</font></a></strong></td>
-    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="service.php"><font color = "#FFFFFF" size="2px">Our services</font></a></strong></td>
-    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="blog.php"><font color = "#FFFFFF" size="2px">Blog</font></a></strong></td>
     <td colspan="2" bgcolor="#255851" align="center"><strong><a href="contactus.php"><font color = "#FFFFFF" size="2px">Contact us</font></strong></td>
-    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF" size="2px">Login</strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF" size="2px">Login<a href="headersignup.php"><font color = "#FFFFFF "></strong></td>
   </tr>
 </table>
 <hr>

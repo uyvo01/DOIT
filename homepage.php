@@ -58,8 +58,4 @@ table tbody tr:nth-child(even) {
     <td colspan="2" bgcolor="#255851" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF" size="2px">Login<a href="headersignup.php"><font color = "#FFFFFF "></strong></td>
   </tr>
 </table>
-<td colspan="2"><img src="images/homepage.jpeg"></td>
 </center>
-<?php
-    include "footer.php";
-?>
