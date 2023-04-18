@@ -6,17 +6,17 @@
 table {
     border-collapse: collapse;
     font-family: Tahoma, Geneva, sans-serif;
-    width:1300px;
+    width:1100px;
 }
 table td {
     padding: 7px;
 }
 table thead td {
-    background-color: #54585d;
+    background-color: #255851;
     color: #ffffff;
     font-weight: bold;
     font-size: 13px;
-    border: 1px solid #54585d;
+    border: 1px solid #255851;
 }
 table tbody td {
     color: #636363;
@@ -49,15 +49,15 @@ table tbody tr:nth-child(even) {
 </style>
 <body>
 <center>
-<td colspan="2"><img src="images/banner.jpg" width = "1300" height="200"></td>
+<td colspan="2"><img src="images/banner.jpeg" width = "1100" height="200"></td>
 <table width="1300" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="index.php"><font color = "#FFFFFF">Home</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="aboutus.php"><font color = "#FFFFFF ">About Us</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="service.php"><font color = "#FFFFFF ">Our services</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="blog.php"><font color = "#FFFFFF ">Blog</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="contactus.php"><font color = "#FFFFFF ">Contact us</font></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF ">Login / </a><a href="headersignup.php"><font color = "#FFFFFF ">Sign up</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="index.php"><font color = "#FFFFFF" size="2px">Home</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="aboutus.php"><font color = "#FFFFFF" size="2px">About Us</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="service.php"><font color = "#FFFFFF" size="2px">Our services</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="blog.php"><font color = "#FFFFFF" size="2px">Blog</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="contactus.php"><font color = "#FFFFFF" size="2px">Contact us</font></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF" size="2px">Login<a href="headersignup.php"><font color = "#FFFFFF "></strong></td>
   </tr>
 </table>
 </center>

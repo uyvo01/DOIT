@@ -6,7 +6,7 @@
 table {
     border-collapse: collapse;
     font-family: Tahoma, Geneva, sans-serif;
-    width:1300px;
+    width:1100px;
 }
 table td {
     padding: 7px;
@@ -29,7 +29,7 @@ table tbody tr:nth-child(even) {
     background-color: #FEF9E7;
 }
 .button {
-  background-color: #D35400;
+  background-color: #255851;
   border: none;
   color: white;
   padding: 7px 20px;
@@ -50,15 +50,15 @@ table tbody tr:nth-child(even) {
 </head>
 <body>
 <center>
-<td colspan="2"><img src="images/banner.jpg" width = "1300" height="200"></td>
+<td colspan="2"><img src="images/banner.jpeg" width = "1100" height="200"></td>
 <table width="1300" height="15" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><font color = "#FFFFFF">Home</font></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="aboutus.php"><font color = "#FFFFFF ">About Us</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="service.php"><font color = "#FFFFFF ">Our services</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="blog.php"><font color = "#FFFFFF ">Blog</font></a></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="contactus.php"><font color = "#FFFFFF ">Contact us</font></strong></td>
-    <td colspan="2" bgcolor="#154360" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF ">Login / </a><a href="headersignup.php"><font color = "#FFFFFF ">Sign up</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><font color = "#FFFFFF" size="2px">Home</font></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="aboutus.php"><font color = "#FFFFFF" size="2px">About Us</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="service.php"><font color = "#FFFFFF" size="2px">Our services</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="blog.php"><font color = "#FFFFFF" size="2px">Blog</font></a></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="contactus.php"><font color = "#FFFFFF" size="2px">Contact us</font></strong></td>
+    <td colspan="2" bgcolor="#255851" align="center"><strong><a href="headerlogin.php"><font color = "#FFFFFF" size="2px">Login</strong></td>
   </tr>
 </table>
 <hr>
@@ -72,13 +72,18 @@ table tbody tr:nth-child(even) {
         <td><label> User Name </label></td>
         <td><input type = "text" class="textbox" name = "username" placeholder="User Name"></td>
         </tr>
-        <tr>
-        <td><label>Password</label></td>
-        <td><input type = "text" class="textbox"  name = "password" placeholder="Password"></td>
-        </tr>
-        <tr>
-        <td></td><td><button type="submit" class="button" >Login </button></td>
-        </tr>
+        <tr><td><label>Password</label></td><td><input type = "text" class="textbox"  name = "password" placeholder="Password"></td></tr>
+        <tr><td></td><td><button type="submit" class="button" >Login </button> </td></tr>
+        <tr><td colspan="2" align="center">Not Register? <a href="headersignup.php"><strong>Create an account</strong></a></td></tr>
         </table>
     </form>
+    
+    <table style="height:400px">
+    <tr style="border: none;">
+    <td style="border: none;"></td>
+    </tr>
+    </table>
 </center>
+<?php
+    include "footer.php";
+?>

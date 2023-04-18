@@ -31,6 +31,7 @@
 
     $username =  validate($_POST['username']);
     $pass = validate($_POST['password']);
+    $pass = hash('ripemd128', $pass);
 
     if(empty($username)){
         header("Location: headersignup.php?error=User Name is required");

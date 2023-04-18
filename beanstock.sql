@@ -1,5 +1,5 @@
-create database if not exists beanstock;
-use beanstock;
+-- create database if not exists beanstock;
+-- use beanstock;
 --
 -- Drop existing constraints to RE-INITIALIZE beanstock
 -- Note: If you're initializing this database for the FIRST TIME, comment these "drop constraint" statements out
@@ -15,6 +15,7 @@ alter table account_transaction drop constraint fk_account_to;
 alter table account_transaction drop constraint fk_cust_trans;
 alter table stock_transaction drop constraint fk_stock_trans_cust;
 alter table stock_transaction drop constraint fk_stock_code;
+alter table stock_transaction drop constraint fk_account_stock;
 alter table stock_balance drop constraint fk_cust_stock;
 alter table stock_balance drop constraint fk_stock_balance;
 alter table documents drop constraint fk_doc_cust;
@@ -22,10 +23,11 @@ alter table documents drop constraint fk_doc_cust;
 --
 -- Creating table users
 --
+
 drop table if exists users;
 create table users (
     username varchar(20) not null,
-    password varchar(20) not null,
+    password varchar(255) not null,
     ssn varchar(20) not null,
     usertype char(1) not null,
     primary key(`username`)
@@ -33,12 +35,13 @@ create table users (
 --
 -- Populating data for table users
 --
+
 insert into users (username, password, ssn, usertype) values
-    ('uyvo@gmail.com','uyv','123-45-6789','A'),
-    ('steven@gmail.com','ste','222-33-4444','A'),
-    ('gina@gmail.com','gin','111-11-1111','C'),
-    ('pauleena@gmail.com','pau','666-66-6666','C'),
-    ('valentyna@gmail.com','val','999-99-9999','C');
+    ('uyvo@gmail.com','3fd62e67fef0a66dd3193a6c4963d940','123-45-6789','A'),
+    ('steven@gmail.com','bea5b6149b5d4e88ad8a6b134e4af2dc','222-33-4444','A'),
+    ('gina@gmail.com','38e37889af3551a9a0e517f5bb75f9f4','111-11-1111','C'),
+    ('pauleena@gmail.com','6938100662f36e8aa20c810aeba7d537','666-66-6666','C'),
+    ('valentyna@gmail.com','0723d6129b44ec838c1f72a4fcdabf49','999-99-9999','C');
 
 --
 -- Creating table customers
@@ -99,17 +102,6 @@ create table employees (
     primary key(employee_id)
 );
 
---
--- Creating table departments
---
-drop table if exists departments;
-create table departments (
-    department_id 	int auto_increment,
-    department_name varchar(250) not null,
-	location 		varchar(50) not null,
-    manager_ssn		varchar(20),
-    primary key(department_id)
-);
 --
 -- Creating table customers
 --
@@ -225,8 +217,6 @@ alter table users add constraint fk_user_ssn
 foreign key (ssn) references persons (ssn);
 alter table employees add constraint fk_emp_ssn
 foreign key (ssn) references persons (ssn);
-alter table employees add constraint fk_emp_dep
-foreign key (department_id) references departments (department_id);
 alter table customers add constraint fk_cust_ssn
 foreign key (ssn) references persons (ssn);
 alter table accounts add constraint fk_cust_account

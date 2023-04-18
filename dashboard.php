@@ -3,5 +3,8 @@
 ?>
 <hr>
 <center>
-<td colspan="2"><img src="images/dashboard.jpeg" width="80%"></td>
+<td colspan="2"><img src="images/dashboard.jpg" width="1100" height="450"></td>
 </center>
+<?php
+    include "footer.php";
+?>

@@ -14,7 +14,7 @@
 table {
     border-collapse: collapse;
     font-family: Tahoma, Geneva, sans-serif;
-    width:1300px;
+    width:1100px;
 }
 table td {
     padding: 7px;
@@ -37,7 +37,7 @@ table tbody tr:nth-child(even) {
     background-color: #FEF9E7;
 }
 .button {
-  background-color: #D35400;
+  background-color: #255851;
   border: none;
   color: white;
   padding: 7px 20px;
@@ -58,7 +58,7 @@ table tbody tr:nth-child(even) {
 <body>
 <center>
 
-<td colspan="2"><img src="images/banner.jpg" width = "1000" height="180"></td>
+<td colspan="2"><img src="images/banner.jpeg" width = "1100" height="180"></td>
 </center>
 <table width="1300" border="0" align="center" cellpadding="0" cellspacing="0">
     <tr><td style='padding:1px; text-align:right' ><font color = "RED" size ="3px">
@@ -66,13 +66,13 @@ table tbody tr:nth-child(even) {
 </table>
 <table width="1300" height="15" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td style="padding: 7px" colspan="1" bgcolor="#154360" align="center"><strong><a href="dashboard.php"><font color = "#FFFFFF" size="2px">Dashboard</font></a></strong></td>
-    <td style="padding: 7px" colspan="1" bgcolor="#154360" align="center"><strong><a href="livemarket.php"><font color = "#FFFFFF" size="2px">Live market</font></a></strong></td>
-    <td style="padding: 7px" colspan="2" bgcolor="#154360" align="center"><strong><a href="trading.php"><font color = "#FFFFFF " size="2px">Buy / Sell</font></a></strong></td>
-    <td style="padding: 7px" colspan="1" bgcolor="#154360" align="center"><strong><a href="documents.php"><font color = "#FFFFFF" size="2px">Documents</font></a></strong></td>
+    <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="dashboard.php"><font color = "#FFFFFF" size="2px">Dashboard</font></a></strong></td>
+    <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="livemarket.php"><font color = "#FFFFFF" size="2px">Live market</font></a></strong></td>
+    <td style="padding: 7px" colspan="2" bgcolor="#255851" align="center"><strong><a href="trading.php"><font color = "#FFFFFF " size="2px">Buy / Sell</font></a></strong></td>
+    <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="documents.php"><font color = "#FFFFFF" size="2px">Documents</font></a></strong></td>
 
-    <td style="padding: 7px" colspan="1" bgcolor="#154360" align="center"><strong><a href="profile.php"><font color = "#FFFFFF" size="2px">Profile</font></a></strong></td>
-    <td style="padding: 7px" colspan="1" bgcolor="#154360" align="center"><strong><a href="logout.php"><font color = "#FFFFFF" size="2px">Logout</font></a></strong></td>
+    <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="profile.php"><font color = "#FFFFFF" size="2px">Profile</font></a></strong></td>
+    <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="logout.php"><font color = "#FFFFFF" size="2px">Logout</font></a></strong></td>
   </tr>
 </table>
 <hr>
