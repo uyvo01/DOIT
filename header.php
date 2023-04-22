@@ -69,8 +69,8 @@ table tbody tr:nth-child(even) {
     <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="dashboard.php"><font color = "#FFFFFF" size="2px">Dashboard</font></a></strong></td>
     <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="livemarket.php"><font color = "#FFFFFF" size="2px">Live market</font></a></strong></td>
     <td style="padding: 7px" colspan="2" bgcolor="#255851" align="center"><strong><a href="trading.php"><font color = "#FFFFFF " size="2px">Buy / Sell</font></a></strong></td>
+    <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="account.php"><font color = "#FFFFFF" size="2px">Deposit/WD</font></a></strong></td>
     <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="documents.php"><font color = "#FFFFFF" size="2px">Documents</font></a></strong></td>
-
     <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="profile.php"><font color = "#FFFFFF" size="2px">Profile</font></a></strong></td>
     <td style="padding: 7px" colspan="1" bgcolor="#255851" align="center"><strong><a href="logout.php"><font color = "#FFFFFF" size="2px">Logout</font></a></strong></td>
   </tr>
